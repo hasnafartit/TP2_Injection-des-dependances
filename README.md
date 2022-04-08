@@ -1,6 +1,6 @@
 # TP2_Injection-des-dependances
 
-dans cette partie on a fait l'injection des dependances en utulisant Spring framework.
+Dans cette partie on a fait l'injection des dependances en utilisant Spring framework.
 Tout d'abord on a crée des insterfaces et des implémentations de ces interfaces.
 
 puis on a commencer par la version XML et on a créé le fichier de configaration(fichier XML).
