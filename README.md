@@ -21,8 +21,19 @@ si on remplace la classe "dao.DaoImpl" par la classe "ext.DaoImplVWS" dans le fi
 Après on a passé à la version Annotation:
   On a utilisé la notion Component qui permet d'instancier une classe et la notion Autowired qui fait l'injection des dependances
   ![image](https://user-images.githubusercontent.com/84719124/162448373-3cab8a9c-b3d9-4978-b62a-f670044156f8.png)
+  
+  si on a plusieurs implementations d'une interface on peut trouver des probleme lors de l'utilisation de Autowired c'est pourquoi on ajoute la notion Qualifier  qui prmmet d'injecter l'istance qu'on veut . voici des exemple:
+  
+  ici on a injecté l'istance dao
+  ![image](https://user-images.githubusercontent.com/84719124/162451238-719852c1-a878-4e71-98d4-1dea0b2d341c.png)
+
+et ici on a injecter l'instance dao2
+![image](https://user-images.githubusercontent.com/84719124/162451416-754180d3-e108-49aa-bef7-512ffa145046.png)
+
 
 Puis on a fait l'injection par constructeur :
+
+![image](https://user-images.githubusercontent.com/84719124/162450053-9ea4c7af-3c44-412a-81cf-fd17a8e779c2.png)
 
   
   
