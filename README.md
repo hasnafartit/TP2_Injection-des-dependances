@@ -19,7 +19,15 @@ si on remplace la classe "dao.DaoImpl" par la classe "ext.DaoImplVWS" dans le fi
 
 
 Après on a passé à la version Annotation:
-  On a utilisé la notion Component qui permet d'instancier une classe et la notion Autowired qui fait l'ijection des dependances
+  On a utilisé la notion Component qui permet d'instancier une classe et la notion Autowired qui fait l'injection des dependances
+  ![image](https://user-images.githubusercontent.com/84719124/162448373-3cab8a9c-b3d9-4978-b62a-f670044156f8.png)
+
+Puis on a fait l'injection par constructeur :
+
+  
+  
+  
+
 
 
 
