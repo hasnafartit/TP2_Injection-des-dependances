@@ -4,10 +4,12 @@ dans cette partie on a fait l'injection de controles par maven.
 Tout d'abord on a crée des insterfaces et des implémentations de ces interfaces.puis on a créé le fichier de configaration.
 ![image](https://user-images.githubusercontent.com/84719124/162441273-34fd4315-f833-45a3-b1a4-246e646c7b8a.png)
 
+voici l'ecécution du code:
+
 ![image](https://user-images.githubusercontent.com/84719124/162442352-831d4259-85cf-4214-a87e-73fac76e913c.png)
 
-si on rem
 
+si on remplace la classe "dao.DaoImpl" par la classe "ext.DaoImpl2" :
 
 ![image](https://user-images.githubusercontent.com/84719124/162442433-004ffa58-d13a-4544-a5d8-62fc82276186.png)
 
