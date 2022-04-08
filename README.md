@@ -20,6 +20,7 @@ si on remplace la classe "dao.DaoImpl" par la classe "ext.DaoImplVWS" dans le fi
 
 Après on a passé à la version Annotation:
   On a utilisé la notion Component qui permet d'instancier une classe et la notion Autowired qui fait l'injection des dependances
+  
   ![image](https://user-images.githubusercontent.com/84719124/162448373-3cab8a9c-b3d9-4978-b62a-f670044156f8.png)
   
   si on a plusieurs implementations d'une interface on peut trouver des probleme lors de l'utilisation de Autowired c'est pourquoi on ajoute la notion Qualifier  qui prmmet d'injecter l'istance qu'on veut . voici des exemple:
@@ -39,28 +40,7 @@ Puis on a fait l'injection par constructeur :
   
   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Puis on a utilisé cmd pour exécuter quelques commandes de maven
+Puis on a utilisé cmd pour exécuter quelques commandes de MAVEN 
 
 pour compiler l'application : mvn compiler
 
